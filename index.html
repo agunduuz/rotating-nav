@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Rotating Navigation" />
+    <meta name="keywords" content="Rotating Navigation" />
+    <meta name="author" content="Anıl Gündüz" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rotating Navigation</title>
+  </head>
+  <body>
+    <main class="container show-nav">
+      <article class="circle-container">
+        <section class="circle">
+          <button id="close">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <button id="open">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </section>
+      </article>
+      <article class="content">
+        <h1>
+          Creating a Stunning Rotating Navigation with HTML, CSS, and JavaScript
+        </h1>
+        <small>Please Check!</small>
+
+        <h3>Introduction:</h3>
+        <p>
+          In the world of web development, creating interactive and visually
+          appealing navigation menus is crucial for enhancing user experience.
+          In this article, we will explore the process of designing and
+          implementing a captivating "Rotating Navigation" using HTML, CSS, and
+          JavaScript. This navigation menu offers a unique twist by rotating the
+          page to a 45-degree angle when a button in the top-left corner is
+          clicked, and smoothly transitioning back to its original state when
+          closed.
+        </p>
+        <h3>Design and Layout:</h3>
+        <p>
+          To begin with, we need to structure our HTML markup for the rotating
+          navigation. We will have a container element that holds the main
+          content of the page, along with a button in the top-left corner for
+          triggering the rotation effect. The CSS styling will be used to
+          position and style these elements appropriately. Additionally, we can
+          apply some eye-catching visual effects to enhance the overall design.
+        </p>
+        <h3>JavaScript Functionality:</h3>
+        <p>
+          The magic happens with JavaScript! We will leverage JavaScript to
+          handle the click event on the button and apply the necessary
+          transformations to achieve the rotation effect. When the button is
+          clicked, we will dynamically add a CSS class to the container element,
+          which will trigger the rotation animation using CSS transitions and
+          transforms. We will also toggle the class when the button is clicked
+          again to revert the rotation and bring the page back to its normal
+          state.
+        </p>
+        <h3>CSS Transitions and Transforms:</h3>
+        <p>
+          CSS transitions and transforms play a vital role in creating the
+          smooth and visually appealing rotation effect. By defining the
+          transition properties and duration, we can control the animation
+          timing and easing. The transform property, specifically the rotate()
+          function, allows us to rotate the container element to the desired
+          angle. Combined with CSS transitions, this creates a seamless rotation
+          animation.
+        </p>
+        <h3>Conclusion:</h3>
+        <p>
+          In this article, we have explored the process of designing and
+          implementing a captivating "Rotating Navigation" using HTML, CSS, and
+          JavaScript. By leveraging CSS transitions, transforms, and JavaScript
+          event handling, we have achieved a visually engaging rotation effect
+          that adds an element of interactivity to the navigation menu. This
+          technique can be applied to various web projects to create unique and
+          memorable user experiences. Feel free to experiment further and
+          customize the design to suit your specific needs.
+        </p>
+        <p>
+          Remember, creativity and attention to detail are key when it comes to
+          designing impressive and interactive web interfaces. With the right
+          combination of HTML, CSS, and JavaScript, you can bring your ideas to
+          life and create stunning user experiences.
+        </p>
+        <h3>My Name's:</h3>
+        <img src="anil-gunduz-text-white.png" alt="" />
+      </article>
+    </main>
+    <nav>
+      <ul>
+        <li><i class="fa-solid fa-house"></i> Home</li>
+        <li><i class="fa-solid fa-user"></i> About</li>
+        <li><i class="fa-solid fa-envelope"></i> Contact</li>
+      </ul>
+    </nav>
+    <script src="script.js"></script>
+  </body>
+</html>
